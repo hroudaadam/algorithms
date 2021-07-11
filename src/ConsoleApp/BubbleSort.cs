@@ -16,6 +16,7 @@ namespace ConsoleApp.BubbleSort
 
             while ((endIndex >= 0) && (!iterationWithoutSwap))
             {
+                iterationWithoutSwap = true;
                 for (int i = 0; i <= endIndex; i++)
                 {
                     Console.WriteLine($"Comparing {unsorted[i]} and {unsorted[i + 1]}");
@@ -24,12 +25,8 @@ namespace ConsoleApp.BubbleSort
                         Swap(unsorted, i, i + 1);
                         iterationWithoutSwap = false;
                     }
-                    else
-                    {
-                        iterationWithoutSwap = true;
-                    }
                 }
-                endIndex -= 1;
+                endIndex--;
             }
         }
 
