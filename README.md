@@ -13,13 +13,13 @@ traversing algorithm that starts at the root node and explores as far as possibl
 ## Breadth first search
 traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes
 
-## Insertion sort
-TODO
-
 ## Buble sort
-TODO
+performs poorly and is used as an educational tool; larger elements "bubble" to the end of the list
 
 ## Selection sort
+sorts an array by repeatedly finding the minimum element from unsorted part and putting it at the beginning
+
+## Insertion sort
 TODO
 
 ## Heap sort
